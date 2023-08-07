@@ -8,7 +8,7 @@ console.log(categoryRadios);
 const getJoke = (option) => {
 
     jokeContainer.classList.remove("fade")
-    const url = `https://v2.jokeapi.dev/joke/${option}`;
+    const url = `https://v2.jokeapi.dev/joke/${option}?blacklistFlags=nsfw,religious,political,racist,sexist,explicit`;
     console.log(url);
     if (jokeContainer.innerText === undefined) {
         jokeContainer.innerText = 'Loading...';
