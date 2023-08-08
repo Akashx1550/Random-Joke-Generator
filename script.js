@@ -24,7 +24,7 @@ const getJoke = (option) => {
                 if (jokeContainer.innerText === undefined) {
                     jokeContainer.innerText = 'Loading...';
                 } else {
-                    if (item.type==='twopart') {
+                    if (item.type === 'twopart') {
                         jokeContainer.innerText = item.setup;
                     } else {
                         jokeContainer.innerText = item.joke;
@@ -50,7 +50,7 @@ categoryRadios.forEach(radio => {
 
 
 
-btn.addEventListener("click",  () => {
+btn.addEventListener("click", () => {
     selectedCategory = document.querySelector('input[id="Any"]').value;
     getJoke(selectedCategory);
 });

@@ -161,55 +161,56 @@ input[type="radio"]:checked::after {
     }
 } */
 
-@media (max-width:1025px){
+@media (max-width:1025px) {
 
-    .wrapper{
+    .wrapper {
         width: 60vmin;
     }
 
-    .category-section{
+    .category-section {
         height: 35vmax;
         width: 25%;
     }
 
 }
 
-@media (max-width:770px){
+@media (max-width:770px) {
 
-    .wrapper{
+    .wrapper {
         width: 50vmin;
     }
 
-    .category-section{
+    .category-section {
         height: 50vmax;
         width: 30%;
     }
 
 }
 
-@media (max-width:753px){
+@media (max-width:753px) {
 
-    .wrapper{
+    .wrapper {
         width: 50vmin;
     }
 
-    .category-section{
+    .category-section {
         height: 55vmin;
         width: 30%;
     }
 
 }
-@media (max-width:660px){
 
-    .main{
+@media (max-width:660px) {
+
+    .main {
         flex-direction: column;
     }
 
-    .wrapper{
+    .wrapper {
         width: 80vmin;
     }
 
-    .category-section{
+    .category-section {
         height: 55vmin;
         width: 50%;
         align-items: center;
@@ -218,60 +219,71 @@ input[type="radio"]:checked::after {
 
 }
 
-@media (max-width:616px){
-    .category-section{
+@media (max-width:616px) {
+    .category-section {
         height: 60vmin;
     }
 }
 
-@media (max-width:562px){
+@media (max-width:562px) {
 
-    h1{
+    h1 {
         font-size: 30px;
     }
-    .category-section{
+
+    .category-section {
         font-size: 15px;
         height: 60vmin;
     }
 }
 
-@media(max-width:524px){
+@media(max-width:524px) {
 
-    .category-section{
+    .category-section {
         font-size: 14px;
     }
 }
 
-@media(max-width:426px){
+@media(max-width:426px) {
 
-    h1{
+    h1 {
         font-size: 25px;
     }
 
-    .main{
-        top: 80%;
+    .main {
+        top: 60%;
     }
 
-    .category-section{
-        align-items: center;
-        height: 48vmax;
+    .category-section {
+        height: 40vmax;
         width: 76%;
         font-size: 13px;
     }
 }
 
-@media(max-width:304px){
-    h1{
-        font-size: 20px;
+
+@media(max-width:392px) {
+
+    .main {
+        top: 55%;
+    }
+
+    .category-section {
+        height: 35vmax;
     }
 }
 
-@media(max-width:260px){
-    h1{
+
+@media(max-width:376px) {
+    h1 {
         font-size: 20px;
     }
 
-    .category-section{
-        height: 50vmax;
+    .main{
+        top: 65%;
+    }
+
+    .category-section {
+        height: 40vmax;
     }
 }
